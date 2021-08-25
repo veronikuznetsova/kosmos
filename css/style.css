@@ -300,6 +300,10 @@ foreignObject {
     font-size: 22px;
 }
 
+.how-to__box-list {
+    display: none;
+}
+
 foreignObject {
     text-align: left;
 }
@@ -649,53 +653,47 @@ foreignObject {
 }
 
 @media(max-width: 1160px) {
-
-    .about{
-        text-align:center;
+    .about {
+        text-align: center;
     }
-    .about__item{
-        display:block;
+    .about__item {
+        display: block;
     }
-
-    .about__content{
-        width:100%;
+    .about__content {
+        width: 100%;
     }
-
-    .about__content-text{
-        display:block;
+    .about__content-text {
+        display: block;
     }
-
     .about__content-text p {
-        width:100%;
-        margin-bottom:20px;
+        width: 100%;
+        margin-bottom: 20px;
     }
-
-    .about__img{
-        margin-bottom:50px;
+    .about__img {
+        margin-bottom: 50px;
     }
-
-    .about__table{
-        width:100%;
+    .about__table {
+        width: 100%;
     }
 }
 
-@media(max-width: 1050px){
-    .special-offer__inner{
-        display:block;
+@media(max-width: 1050px) {
+    .special-offer__inner {
+        display: block;
     }
-    .special-offer__item{
-        width:100%;
+    .special-offer__item {
+        width: 100%;
     }
-    .special-offer__btn{
-        margin-bottom:20px;
+    .special-offer__btn {
+        margin-bottom: 20px;
     }
-    .contacts__inner{
-        display:block;
+    .contacts__inner {
+        display: block;
     }
-    .contacts__box{
-        width:100%;
+    .contacts__box {
+        width: 100%;
     }
-    .contacts__guarantees{
+    .contacts__guarantees {
         margin: 0 auto;
     }
 }
@@ -704,22 +702,21 @@ foreignObject {
     .login {
         margin-right: 0;
     }
-
-    .to-book{
-        background-position:top left;
+    .to-book {
+        background-position: top left;
     }
-    .to-book__inner{
-        display:block;
+    .to-book__inner {
+        display: block;
     }
-    .to-book__text{
-        width:100%;
-        margin:0 0 30px 0;
+    .to-book__text {
+        width: 100%;
+        margin: 0 0 30px 0;
     }
 }
 
 @media(max-width: 895px) {
-    .header{
-        background-position:center right;
+    .header {
+        background-position: center right;
     }
     .header__top {
         margin-top: 30px;
@@ -741,100 +738,85 @@ foreignObject {
         width: 100%;
         text-align: center;
     }
-
-    .menu__list.active{
+    .menu__list.active {
         transform: translateY(0);
     }
-      
     .menu__item {
         padding: 15px 0;
     }
     .menu__link {
         display: block;
     }
-    .phone, 
-    .login{
-        position:relative;
-        z-index:20;
+    .phone,
+    .login {
+        position: relative;
+        z-index: 20;
     }
-
-    .header__content{
+    .header__content {
         margin: 0 auto;
     }
-
-    .header__description{
-        justify-content:center;
+    .header__description {
+        justify-content: center;
     }
-
-    .how-to__box svg{
-        display:none;
+    .how-to__box svg {
+        display: none;
     }
-
-    .how-to__box-list{
-        display:block;
-        list-style:none;
+    .how-to__box-list {
+        display: block;
+        list-style: none;
     }
-
-    .how-to__box-item{
-        padding-bottom:30px;
-        text-align:left;
-        padding-left:20px;
-        position:relative;
+    .how-to__box-item {
+        padding-bottom: 30px;
+        text-align: left;
+        padding-left: 20px;
+        position: relative;
         border-left: 1px solid #fff;
-        margin-left:20px;
+        margin-left: 20px;
     }
-
-    .how-to__box-item:last-child{
-        border-left:none;
+    .how-to__box-item:last-child {
+        border-left: none;
     }
-
-    .how-to__box-item::before{
-        content:'';
-        position:absolute;
-        left:-10px;
+    .how-to__box-item::before {
+        content: '';
+        position: absolute;
+        left: -10px;
         top: 0;
-        width:20px;
-        height:20px;
-        border-radius:50%;
-        background-color:#fff;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #fff;
     }
-
-    .services__inner{
-        display:block;
+    .services__inner {
+        display: block;
     }
-
-    .services__box-list{
-        width:100%;
+    .services__box-list {
+        width: 100%;
         margin-bottom: 170px;
-        margin-right:0;
+        margin-right: 0;
     }
-
-    .services__buttons{
-        max-width:500px;
+    .services__buttons {
+        max-width: 500px;
         margin: 0 auto;
-        width:auto;
+        width: auto;
     }
-
-    .slider__box-img{
-        max-width:100%;
+    .slider__box-img {
+        max-width: 100%;
     }
 }
 
-@media(max-width: 720px){
-    .services{
-        padding-bottom:50px;
+@media(max-width: 720px) {
+    .services {
+        padding-bottom: 50px;
     }
-    .slider__inner{
-        padding:0;
+    .slider__inner {
+        padding: 0;
     }
-
-    .slider__description{
-        font-size:18px;
-        line-height:24px;
+    .slider__description {
+        font-size: 18px;
+        line-height: 24px;
     }
-
-    .info{
-        padding-bottom:50px;
+    .info {
+        padding-bottom: 50px;
     }
 }
 
@@ -844,13 +826,12 @@ foreignObject {
         line-height: 38px;
         padding: 50px 0;
     }
-
-    .header__content{
-       text-align:center;
+    .header__content {
+        text-align: center;
     }
     .header__title {
         font-size: 34px;
-        line-height:30px;
+        line-height: 30px;
     }
     .header__title span {
         font-size: 60px;
@@ -859,7 +840,7 @@ foreignObject {
         font-size: 18px;
         justify-content: center;
     }
-    .header__text p{
+    .header__text p {
         padding: 0 10px;
     }
     .header__btn {
@@ -867,157 +848,135 @@ foreignObject {
         line-height: 24px;
         width: 60%;
     }
-    .header__description{
-        display:block;
+    .header__description {
+        display: block;
     }
-    .header__description-text{
-        width:100%;
-        text-align:center;
+    .header__description-text {
+        width: 100%;
+        text-align: center;
     }
-
-    .header__description-text + .header__description-text{
-        margin-left:0;
-        margin-top:20px;
+    .header__description-text+.header__description-text {
+        margin-left: 0;
+        margin-top: 20px;
     }
-
     .about__item {
         padding-bottom: 50px;
     }
-
-    .about__table-tr:first-child{
-        display:none;
+    .about__table-tr:first-child {
+        display: none;
     }
-
-    .about__table-td{
-        display:block;
-        text-align:right;
+    .about__table-td {
+        display: block;
+        text-align: right;
         border-bottom: 1px solid #fff;
     }
-
-    .about__table-td:last-child{
-        border:none;
+    .about__table-td:last-child {
+        border: none;
     }
-
-    .about__table-td span{
-        display:inline-block;
+    .about__table-td span {
+        display: inline-block;
     }
-
-    .about__table-td::before{
+    .about__table-td::before {
         content: attr(aria-label);
-        float:left;
+        float: left;
     }
-
-    .about__table-tr + .about__table-tr{
+    .about__table-tr+.about__table-tr {
         font-size: 20px;
         line-height: 22px;
-        font-weight:400;
+        font-weight: 400;
     }
-    .contacts__guarantees-img{
-        max-width:100%;
+    .contacts__guarantees-img {
+        max-width: 100%;
     }
-    .contacts__guarantees{
-        width:100%;
+    .contacts__guarantees {
+        width: 100%;
     }
-    .services__title{
+    .services__title {
         font-size: 35px;
     }
 }
 
-@media(max-width: 570px){
-    .footer__inner{
-        display:block;
+@media(max-width: 570px) {
+    .footer__inner {
+        display: block;
     }
-    .footer__text{
-        width:100%;
-        margin-right:0;
+    .footer__text {
+        width: 100%;
+        margin-right: 0;
     }
-
-    .footer__text p+p{
-        margin-bottom:30px;
+    .footer__text p+p {
+        margin-bottom: 30px;
         margin-top: 10px;
     }
-
-    .footer__menu, .footer__links{
-        margin-right:0;
-        width:100%;
+    .footer__menu,
+    .footer__links {
+        margin-right: 0;
+        width: 100%;
     }
-
-    .footer__menu{
-        margin-bottom:50px;
+    .footer__menu {
+        margin-bottom: 50px;
     }
-
-
-    .footer{
-        text-align:center;
-        padding-bottom:100px;
+    .footer {
+        text-align: center;
+        padding-bottom: 100px;
     }
 }
 
-@media(max-width: 480px){
+@media(max-width: 480px) {
     .title {
         font-size: 28px;
         line-height: 28px;
     }
-
-    .special-offer__new-price{
+    .special-offer__new-price {
         font-size: 34px;
         line-height: 44px;
     }
-
-    .services__box-list{
-        font-size:18px;
+    .services__box-list {
+        font-size: 18px;
         line-height: 26px;
     }
-
-    .special-offer__item-box{
+    .special-offer__item-box {
         padding: 20px 10px;
     }
-
-    .services__title, .to-book__title{
-        font-size:23px;
+    .services__title,
+    .to-book__title {
+        font-size: 23px;
     }
-
-    .contacts__guarantees-text{
-        font-size:20px;
+    .contacts__guarantees-text {
+        font-size: 20px;
         line-height: 26px;
     }
 }
 
-@media(max-width: 375px){
-    .services__btn--first::before{
+@media(max-width: 375px) {
+    .services__btn--first::before {
         bottom: 63px;
     }
 }
 
-
-@media(max-width: 360px){
+@media(max-width: 360px) {
     .header__top {
-        flex-wrap:wrap;
+        flex-wrap: wrap;
     }
-
-    .phone{
-        width:100%;
-        margin-right:auto;
-        margin-top:20px;
-        text-align:center;
+    .phone {
+        width: 100%;
+        margin-right: auto;
+        margin-top: 20px;
+        text-align: center;
     }
-
-    .menu, .login{
+    .menu,
+    .login {
         order: -1;
     }
-
     .menu__list {
         padding-top: 110px;
     }
-
     .header__title {
         font-size: 28px;
     }
-
     .header__title span {
         font-size: 32px;
     }
-
     .header__btn {
         font-size: 16px;
         width: 100%;
